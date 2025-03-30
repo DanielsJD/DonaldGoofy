@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN git clone git https://github.com/DanielsJD/UnHided .
+RUN git clone git https://github.com/DanielsJD/DonaldGoofy .
 
 # Copy the local config.json file to the container
 
