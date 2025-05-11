@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN clone git https://github.com/DanielsJD/DonaldGoofy .
+RUN git clone https://github.com/DanielsJD/DonaldGoofy .
 
 # Copy the local config.json file to the container
 
